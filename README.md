@@ -5,6 +5,7 @@ A PHP + MySQL bookstore project that lets users browse books, manage a cart, and
 ## Features
 
 User
+
 - Browse all books and search by title/author
 - View book details
 - Add to cart and checkout
@@ -12,6 +13,7 @@ User
 - Contact form
 
 Admin
+
 - Manage books (add, edit, delete)
 - Manage users
 - Manage orders and payment status
@@ -25,15 +27,19 @@ Admin
 
 ## Setup
 
-1) Clone or place the project into your local server root
+1. Clone or place the project into your local server root
+
 - XAMPP: `htdocs/project`
 
-2) Import the database
+2. Import the database
+
 - Create a database named `shop_db`
 - Import `shop_db.sql`
 
-3) Configure database credentials
+3. Configure database credentials
+
 - Edit `includes/config.php`
+
 ```php
 $host = "localhost";
 $user = "root";
@@ -42,7 +48,8 @@ $db = "shop_db";
 $port = 3306;
 ```
 
-4) Run the app
+4. Run the app
+
 - Start Apache and MySQL
 - Open `http://localhost/project/pages/home.php`
 
@@ -67,4 +74,3 @@ project/
 
 - Tạ Thanh Vũ - ITITIU21352
 - Lê Quang Nguyên - ITITIU21265
-- Lê Ngô Gia Bảo - ITITIU21159
