@@ -65,6 +65,5 @@ project/
 
 ## Team Members
 
-- Tạ Thanh Vũ - ITITIU21352
-- Lê Quang Nguyên - ITITIU21265
-- Lê Ngô Gia Bảo - ITITIU21159
+
+
