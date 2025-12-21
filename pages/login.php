@@ -59,7 +59,7 @@ if(isset($_POST['submit'])){
 <body>
 
 <?php
-// Hiển thị thông báo lỗi nếu đăng nhập không thành công
+
 // Flash messages.
 if(isset($message)){
    foreach($message as $msg){
