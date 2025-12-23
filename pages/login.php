@@ -8,6 +8,7 @@ session_start();
 if(isset($_POST['submit'])){
 
    $email = mysqli_real_escape_string($conn, $_POST['email']);
+   // Password hash (legacy md5).
    $pass = mysqli_real_escape_string($conn, md5($_POST['password'])); 
 
    // Check credentials against the database.
