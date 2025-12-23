@@ -44,7 +44,7 @@ $port = 3306;
 
 4) Run the app
 - Start Apache and MySQL
-- Open `http://localhost/project/pages/home.php`
+- Open `http://localhost/project/pages/login.php`
 
 ## Admin Access
 
