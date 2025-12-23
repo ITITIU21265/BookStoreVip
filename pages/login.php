@@ -8,6 +8,7 @@ session_start();
 if(isset($_POST['submit'])){
 
    $email = mysqli_real_escape_string($conn, $_POST['email']);
+   // Password hash (legacy md5).
    $pass = mysqli_real_escape_string($conn, md5($_POST['password'])); 
 
    // Check credentials against the database.
@@ -59,7 +60,7 @@ if(isset($_POST['submit'])){
 <body>
 
 <?php
-// Hiển thị thông báo lỗi nếu đăng nhập không thành công
+
 // Flash messages.
 if(isset($message)){
    foreach($message as $msg){
